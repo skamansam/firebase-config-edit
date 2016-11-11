@@ -1,0 +1,34 @@
+<link rel="import" href="bower_components/polymer/polymer.html">
+
+<!--
+`firebase-config-edit`
+edit configs for objects in forebase
+
+@demo demo/index.html 
+-->
+
+<dom-module id="firebase-config-edit">
+  <template>
+    <style>
+      :host {
+        display: block;
+      }
+    </style>
+    <h2>Hello [[prop1]]</h2>
+  </template>
+
+  <script>
+    Polymer({
+
+      is: 'firebase-config-edit',
+
+      properties: {
+        prop1: {
+          type: String,
+          value: 'firebase-config-edit',
+        },
+      },
+
+    });
+  </script>
+</dom-module>
